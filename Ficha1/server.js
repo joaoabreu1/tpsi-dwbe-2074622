@@ -4,25 +4,24 @@
 // //var freq = 1;
 
 
-// //função
-// function calculateGrade(p1, p2, freq) {
-//     var nf = (p1 * 0.30) + (p2 * 0.40) + (freq * 0.30)
+//função para calcular a nota final com validação de valores
+function calculateGrade(p1, p2, freq) {
+    var nf = (p1 * 0.30) + (p2 * 0.40) + (freq * 0.30)
 
-//     console.log("A nota final é: " + nf);
+    console.log("A nota final é: " + nf); //imprime o valor da nota final
 
-//     if (nf >= 9.5)
-//         console.log("Aluno Aprovado \n");
-//     else
-//         console.log("Aluno Reprovado \n");
+    if (nf >= 9.5)
+        console.log("Aluno Aprovado \n");
+    else
+        console.log("Aluno Reprovado \n");
 
-// }
+}
 
-// //chama a função com os valores pretendidos
-// calculateGrade(12, 12, 12)
-// calculateGrade(8, 10, 7)
-// calculateGrade(19, 18, 19)
-// calculateGrade(12, 12, 12)
-// // saídas
+//chama a função com os valores pretendidos
+calculateGrade(12, 12, 12)
+calculateGrade(8, 10, 7)
+calculateGrade(19, 18, 19)
+calculateGrade(12, 12, 12)
 
 
 
