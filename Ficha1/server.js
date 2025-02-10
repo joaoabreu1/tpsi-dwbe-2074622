@@ -78,31 +78,65 @@
 
 // calcmes(1);
 
-function calcular(num1, num2, op)
-{
-    var soma = num1 + num2;
-    var sub = num1 - num2;
-    var mult = num1 * num2;
-    var div = num1 / num2;
+// function calcular(num1, num2, op)
+// {
+//     var soma = num1 + num2;
+//     var sub = num1 - num2;
+//     var mult = num1 * num2;
+//     var div = num1 / num2;
 
-    if (op == "+") {
-    console.log("Soma: " + soma);
+//     if (op == "+") {
+//     console.log("Soma: " + soma);
+//     }
+//     else if (op == "-") {
+//     console.log("Subtração: " + sub);
+//     }
+//         else if (op == "*") {
+//         console.log("Multiplicação: " + mult);
+//         }
+//             else if (op == "/") {
+//             console.log("Divisão: " + div);
+//             }
+//                 else {
+//                     console.log("Operação inválida");
+//                 }   
+// }
+
+// calcular(10, 5, "/");
+// calcular(10, 5, "*");
+// calcular(10, 5, "-");   
+// calcular(10, 5, "+");
+
+
+
+
+
+// function multiplo(num) 
+// {
+//     while (num <= 20) {
+//         if (num % 5 == 0) {
+//             contador = 1
+//             console.log(contador + " * " + num + " = " + num);
+//         }
+//         contador++;
+//         num++;
+//     }
+// }
+
+// multiplo(5);
+
+
+
+
+
+
+function somaint(limite){
+    var soma = 0;
+
+    for (var i = 0; i <= limite; i++) {
+        soma += i;
     }
-    else if (op == "-") {
-    console.log("Subtração: " + sub);
-    }
-        else if (op == "*") {
-        console.log("Multiplicação: " + mult);
-        }
-            else if (op == "/") {
-            console.log("Divisão: " + div);
-            }
-                else {
-                    console.log("Operação inválida");
-                }   
+    console.log(soma);
 }
 
-calcular(10, 5, "/");
-calcular(10, 5, "*");
-calcular(10, 5, "-");   
-calcular(10, 5, "+");
+somaint(5);
