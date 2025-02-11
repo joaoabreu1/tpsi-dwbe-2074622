@@ -192,7 +192,7 @@ function min(array) {
     return m; //retorna o valor mais baixo
 }
 
-console.log("O valor mínimo no array: [" + array + "] é: " + min(array));
+// console.log("O valor mínimo no array: [" + array + "] é: " + min(array));
 
 function max(array) {
     var index = 1;
@@ -207,7 +207,7 @@ function max(array) {
     return m; //retorna o valor mais alto
 }
 
-console.log("O valor máximo no array: [" + array + "] é: " + max(array));
+// console.log("O valor máximo no array: [" + array + "] é: " + max(array));
 
 
 function med(array) {
@@ -223,4 +223,25 @@ function med(array) {
     return med; //retorna o valor da média
 }
 
-console.log("O valor da média no array: [" + array + "] é: " + med(array));
+// console.log("O valor da média no array: [" + array + "] é: " + med(array));
+
+
+// function imc(peso, altura){
+//     var imc = peso / (altura * altura);
+//     console.log(imc)
+
+//     if (imc < 18,5){
+//         console.log("Abaixo do Peso");
+//     }
+//     else if (imc >= 18,5 && imc < 25){
+//         console.log("Peso Normal");
+//         }
+//         else if (imc >= 25 && imc < 30){
+//             console.log("Acima do Peso");
+//             }
+//             else if (imc >= 30){
+//                 console.log("Obeso !");
+//             }
+// }
+
+// imc(70,1.60)
